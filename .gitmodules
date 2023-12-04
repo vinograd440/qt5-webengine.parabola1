@@ -1,5 +1,6 @@
 [submodule "src/3rdparty"]
     path = src/3rdparty
-    url = ../qtwebengine-chromium.git
+    url = ../qtwebengine-chromium.parabola1.git
+    branch = 87-based
     ignore = dirty
     initrepo = true

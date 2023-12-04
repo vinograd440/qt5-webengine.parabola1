@@ -19,7 +19,7 @@ gn_args += \
     enable_swiftshader_vulkan=false \
     angle_enable_swiftshader=false \
     enable_web_speech=false \
-    enable_widevine=true \
+    enable_widevine=false \
     forbid_non_component_debug_builds=false \
     has_native_accessibility=false \
     safe_browsing_mode=0 \
@@ -30,7 +30,7 @@ gn_args += \
     use_allocator=\"none\" \
     use_custom_libcxx=false \
     chrome_pgo_phase=0 \
-    enable_hangout_services_extension=true
+    enable_hangout_services_extension=false
 
 # Closure compile requires Java
 gn_args += \
